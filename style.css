@@ -32,7 +32,7 @@ body {
 
 .row-hero p {
     font-size: 22px;
-    
+
 }
 
 .row-hero input {
@@ -152,7 +152,7 @@ section .content {
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 10rem;
+        top: 30vh;
         left: 2rem;
 
     }
@@ -164,7 +164,7 @@ section .content {
 
     .row-hero p {
         font-size: 15px;
-        
+
     }
 
     .row-hero .btn {
@@ -180,7 +180,7 @@ section .content {
 
     .content .row {
         display: flex;
-        flex-direction: column-reverse;
+        
         left: 0;
 
     }
@@ -189,5 +189,28 @@ section .content {
         font-size: 25px;
     }
 
+    .subscribe-box {
+        margin: 10px 0;
+        position: absolute;
+        left: 10px;
+    }
 
+    .subscribe-box input {
+        width: 40%;
+    }
+
+    .subscribe-box .btn {
+        padding: 0.4rem;
+    }
+
+    .row-footer {
+        position: relative;
+        top: 200px;
+        left: 100px;
+    }
+    .row {
+        position: relative;
+        top: 50px;
+        left: -50px;
+    }
 }
